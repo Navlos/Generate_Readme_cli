@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Generate-readme
+Version: 0.1
+Summary: Generate a README.md file for your projects
+Author: Adetunji Adetayo
+Author-email: <litcoderr@gmail.com>
+Keywords: README,python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: OS independent
