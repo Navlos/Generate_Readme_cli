@@ -14,7 +14,7 @@ setup(
     author_email="<litcoderr@gmail.com>",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url = "https://github.com/Navlos/Generate_Readme_cli.git",
+    url="https://github.com/Navlos/Generate_Readme_cli.git",
     py_modules=["generate_readme"],
     keywords=["README", "python"],
     install_requires=["markdown"],
@@ -22,12 +22,11 @@ setup(
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
-        "Operating System :: OS independent",
+
         "License :: OSI Approved :: MIT License",
-       
+
 
 
     ],
-    
-)
 
+)
