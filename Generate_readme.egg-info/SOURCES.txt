@@ -1,7 +1,0 @@
-setup.py
-Generate_readme.egg-info/PKG-INFO
-Generate_readme.egg-info/SOURCES.txt
-Generate_readme.egg-info/dependency_links.txt
-Generate_readme.egg-info/requires.txt
-Generate_readme.egg-info/top_level.txt
-Readme_generator_cli/__init__.py

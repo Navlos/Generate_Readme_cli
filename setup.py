@@ -1,10 +1,7 @@
-
-
 from setuptools import setup
 
 with open('README.md', 'r') as f:
     long_description = f.read()
-
 
 setup(
     name="generate-readme",
@@ -17,7 +14,6 @@ setup(
     url="https://github.com/Navlos/Generate_Readme_cli.git",
     py_modules=["generate_readme"],
     keywords=["README", "python"],
-    install_requires=["markdown"],
     classifiers=[
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
@@ -25,9 +21,10 @@ setup(
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
         "License :: OSI Approved :: MIT License",
-
-
-
     ],
-
+    entry_points={
+        "console_scripts": [
+            "generate-readme = generate_readme:main",
+        ],
+    },
 )
